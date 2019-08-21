@@ -1,0 +1,65 @@
+#topo-informacoes{
+    background: #51056e;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+#topo-informacoes a{
+    color: #ffffff;
+    font-weight: bold;
+}
+#topo-informacoes a:hover{
+    color: antiquewhite;
+}
+
+#topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 100px;
+    background: #2a033a;
+}
+
+#menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+#menu a{
+    color: #ffffff;;
+    padding: 10px;
+}
+#menu a:hover{
+    background: #51056e;
+    border-radius: 20px;
+}
+
+#pesquisa{
+    padding: 10px;
+}
+#btn-buscar{
+    background: #51056e;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#div-botoestopo{
+    display: flex;
+    align-items: center;
+}
+#login{
+    color: #ffffff;
+    font-weight: bold;
+    padding: 15px;
+}
+#login:hover{
+    color: #51056e;
+}
+#divisao{
+    background-color: #fff;
+    width: 2px;
+    height: 25px;
+    margin-right: 12px;
+}
+
