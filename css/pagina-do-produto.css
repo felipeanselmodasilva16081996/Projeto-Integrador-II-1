@@ -1,0 +1,60 @@
+#sec-info-produto{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+#imagem-do-produto{
+    margin-right: 50px;
+}
+#imagem-do-produto img{
+    width: 500px;
+    border: solid 2px black;
+}
+#info-produto{
+    margin-top: 50px;
+}
+#titulo-produto{
+    font-size: 24px;
+}
+#sec-info-produto hr{
+    background-color: black;
+}
+.ajuste-preco{
+    font-size: 22px;
+    margin-top: 5px;
+}
+#hr2-produto{
+    width: 80px;
+    margin: -15px auto;
+}
+
+
+#tamanho-produto{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: -3px;
+}
+.botao-tamanho{
+    background-color: black;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+#comprar{
+    margin-top: 10px;
+    background-color: green;
+    color: #fff;
+    padding: 10px 100px;
+}
+#add-favoritos{
+    background-color: rgb(238, 9, 9);
+    color: #fff;
+    margin-top: 10px;
+    padding: 10px 53px;
+}
+
+#descricao-produto{
+    
+}
