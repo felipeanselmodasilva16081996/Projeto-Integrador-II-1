@@ -16,17 +16,33 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 100px;
+    padding: 8px 50px;
     background: #2a033a;
 }
 
 #menu{
+    margin-top: 12px;
+}
+#menu ul{
     display: flex;
-    flex-wrap: wrap;
+}
+#menu ul ul{
+    display: none;
+    position: absolute;
+    margin-top: 7px;
+    z-index: 2;
+}
+#menu ul ul li{
+    background-color: black;
+    padding: 10px 15px;
 }
 #menu a{
     color: #ffffff;;
     padding: 10px;
+    text-decoration: none;
+}
+#menu ul li:hover ul{
+    display: block;
 }
 #menu a:hover{
     background: #51056e;

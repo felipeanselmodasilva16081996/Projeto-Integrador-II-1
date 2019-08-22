@@ -1,0 +1,35 @@
+footer{
+    background-color: rgb(34, 34, 34);
+    color: #fff;
+    width: 100%;
+}
+
+#footer-info{
+    display: flex;
+    padding: 10px 20px;
+}
+#localizacao{
+    width: 50%;
+    font-size: 15px;
+    text-align: center;
+}
+#localizacao h3{
+    font-size: 22px;
+}
+.footer-title{
+    font-weight: bold;
+    font-size: 17px;
+}
+#footer-redesociais{
+    width: 50%;
+}
+#footer-redesociais img{
+    width: 5%;
+}
+
+#footer-final{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+}

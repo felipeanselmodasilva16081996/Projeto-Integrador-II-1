@@ -12,10 +12,13 @@
   <link rel="stylesheet" type="text/css" href="../css/header.css">
   <link rel="stylesheet" type="text/css" href="../css/carousel.css">
   <link rel="stylesheet" type="text/css" href="../css/marcas-populares.css">
+  <link rel="stylesheet" type="text/css" href="../css/produtos.css">
+  <link rel="stylesheet" type="text/css" href="../css/bones.css">
+  <link rel="stylesheet" type="text/css" href="../css/footer.css">
 </head>
 
 <body>
-  <header>
+  <header id="header">
     <section id="topo-informacoes">
       <a href="#">Rastreie seu pedido</a>
       <a href="#">Fale conosco</a>
@@ -25,17 +28,25 @@
     <section id="topo">
 
       <div id="logo">
-        <img src="../images/logobranca.png" alt="">
+        <a href="../html/index.html"><img src="../images/logobranca.png" alt="logo da GladiusStore"></a>
       </div>
 
       <nav id="menu">
-        <a href="#">Marcas</a>
-        <a href="#">Calçados</a>
-        <a href="#">Acessórios</a>
-        <a href="#">Blusas</a>
-        <a href="#">Calças</a>
-        <a href="#">Camisa</a>
-        <a href="#">Camisetas</a>
+        <ul>
+          <li><a href="">Acessórios</a>
+            <ul>
+              <li><a href="bones.html">Bonés</a></li>
+              <li><a href="">Bonés</a></li>
+              <li><a href="">Bonés</a></li>
+            </ul>
+          </li>
+          <li><a href="">Blusas</a></li>
+          <li><a href="">Camisa</a></li>
+          <li><a href="">Camisetas</a></li>
+          <li><a href="">Calçados</a></li>
+          <li><a href="">Calças</a></li>
+          <li><a href="">Marcas</a></li>
+        </ul>
       </nav>
 
       <div id="div-buscar">
@@ -111,7 +122,32 @@
 
     </section>
   </main>
+  
+  <footer>
+    <div id="footer-info">
+      <div id="localizacao">
+          <h3>Localização da nossa loja</h3>
+          <span class="footer-title">Cidade:</span> Taquaritinga - SP
+          <br>
+          <span class="footer-title">Rua:</span> Manoel Martins Pereira
+          <br>
+          <span class="footer-title">Bairro:</span> Bairro
+          <br>
+          <span class="footer-title">Número:</span> 500
+          <br>
+          <span class="footer-title">Telefone:</span> 3252 - 5555
+        </div>
 
+        <div id="footer-redesociais">
+          <img src="../images/face.png" alt="">
+          <img src="../images/face.png" alt="">
+        </div>
+    </div>
+    
+    <div id="footer-final">
+      Todos os direitos reservados 2019@GladiusStore
+    </div>
+  </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
